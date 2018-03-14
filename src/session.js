@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 export default class session extends EventEmitter {
     constructor(input, output) {
-        super();//查一下这个是什么原因
+        super();
         this.input = input;
         this.output - output;
         this._rawData = new Buffer(0);
